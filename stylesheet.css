@@ -1,0 +1,487 @@
+body{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #2A2B2A;
+	background-color: #DCDCDD;
+}
+
+*{
+	margin: 0;
+}
+
+#header{
+	background: url(images/kari-shea-272383-unsplash.jpg) no-repeat;
+	max-height: 100%;
+	min-height: 100vh;
+	max-width: 100%;
+	padding-bottom: 1px;
+}
+
+#header p{
+	margin-bottom: 0;
+}
+
+#header p{
+	margin-top: 15px;
+}
+
+.content{
+		background-color: #ffffff;
+		padding-bottom: 30px;
+}
+
+nav{
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: rgba(161,128,97,0.9);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-transform: uppercase;
+	z-index: 10;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 700;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+#contact{
+	padding-bottom: 25px;
+}
+
+#typewriter{
+	vertical-align: middle;
+	font-size: 80px;
+}
+
+#about{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.about img{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}
+
+.text{
+	display: inline;
+	width: 64%;
+}
+
+h1{
+	text-align: center;
+	color: #a18061;
+	font-size: 100px;
+}
+
+h2{
+	text-align: center;
+	color: #a18061;
+	font-size: 100px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#header h1{
+	font-size: 120px;
+	padding-top: 250px;
+}
+
+#portfolio{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 75px;
+}
+
+.portfolioContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.portfolioContent > *{
+	position: relative;
+}
+
+.portfolioContent > *:after{
+	background-color: rgba(94,100,114,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	content: "";
+}
+
+.portfolioContent > *:hover:after{
+	background-color: transparent;
+}
+
+.flex{
+	width: 30%;
+	min-width: 350px;
+	height: 350px;
+	margin-bottom: 30px;
+}
+
+.content{
+	padding-bottom: 75px;
+}
+
+.placeholder{
+	background: url(images/placeholder-images.jpg);
+	background-position: center;
+}
+
+.ArchitekturMustermann{
+	background: url(images/ArchitekturMustermann.jpg);
+	background-position: center;
+}
+
+.Winery{
+	background: url(images/Winery.jpg);
+	background-position: center;
+}
+
+.WeatherApp{
+	background: url(images/WeatherApp.jpg);
+	background-position: center;
+}
+
+.QuoteMachine{
+	background: url(images/QuoteMachine.jpg);
+	background-position: center;
+}
+
+.tierheim{
+	background: url(images/tierheim.jpg);
+	background-position: center;
+}
+
+.recipeGenerator{
+	background: url(images/recipeGenerator.jpg);
+	background-position: center;
+}
+
+.brettspieldatenbank{
+	background: url(images/brettspieldatenbank.jpg);
+	background-position: center;
+}
+
+.design{
+	background: url(images/designklein.jpg);
+	background-position: center;
+}
+
+.bakery{
+	background: url(images/bakery.jpg);
+	background-position: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.beispiel{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+
+#skills{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skill {
+	display: inline-block;
+	width: 150px;
+	margin-bottom: 25px;
+}
+
+.skill p{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+input{
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 25%;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form h1{
+	color: #000000;
+}
+
+textarea{
+	display: block;
+	margin: 0 auto 15px auto;
+	width: 25%;
+	max-width: 25%;
+	min-width: 25%;
+	text-align: left;
+	height: 150px;
+	max-height: 150px;
+	min-height: 150px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 5px;
+	padding-top: 5px;
+	outline: none;
+}
+
+.input{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.button{
+	width: 100px;
+	text-align: center;
+}
+
+/*.icons{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 37.5px;
+	margin-top: 37.5px;
+	color: #A18061;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.icon{
+	width: 75px;
+	margin-top: 15px;
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+.fa-star{
+	color: #A18061;
+}
+
+.footer{
+	margin-top: 15px;
+	/*display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;*/
+	text-align: center;
+}
+
+.footer p{
+	margin-bottom: 2px;
+	font-size: 13px;
+}
+
+.impressum{
+	margin-top: 15px;
+}
+
+a{
+	margin-bottom: 2px;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	color: #a18061;
+}
+
+@media(max-width: 1500px){
+	#header{
+		background: url(images/kari-shea-272383-unsplash_1500.jpg) no-repeat;
+	}
+}
+
+@media(max-width: 1260px){
+	#header{
+		background: url(images/kari-shea-272383-unsplash_1260.jpg) no-repeat;
+	}	
+}
+
+@media(max-width: 1440px){
+	.text{
+		width: 62%;
+	}
+}
+
+@media(max-width: 1024px){
+	#header{
+		background: url(images/kari-shea-272383-unsplash_1024.jpg) no-repeat;
+	}
+	.about{
+		display: block;
+	}
+	.about img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+	input{
+		width: 50%;
+	}
+	textarea{
+		min-width: 50%;
+		max-width: 50%;
+	}
+}
+
+@media(max-width: 900px){
+		.flex{
+		width: 97%;
+	}
+}
+
+@media(max-width: 768px){
+	#header{
+		background: url(images/kari-shea-272383-unsplash_768.jpg) no-repeat;
+		min-height: 793px;
+	}
+	#header h1{
+		padding-top: 100px;
+	}
+	.flex{
+		width: 97%;
+	}
+/*	.beispiel .fab{
+		margin-top: 55%;
+	}*/
+}
+
+@media(max-width: 600px){
+	#portfolio{
+		width: 99%;
+	}
+	#typewriter {
+		font-size: 50px;
+	}
+	#header h1 {
+		font-size: 90px;
+	}
+/*	.flex{
+		width: 95%;
+		max-width: 95%;
+		min-width: 95%;
+	}*/
+	input{
+		width: 90%;
+	}
+	textarea{
+		min-width: 90%;
+		max-width: 90%;
+	}
+	h2{
+		font-size: 70px;
+		padding-bottom: 55px;
+		padding-top: 55px;
+	}
+	.about img{
+		width: 300px;
+		height: 300px;
+	}
+	#about{
+		width: 97%;
+	}
+	.beispiel .fab{
+		margin-top: 90%;
+	}
+	#skills{
+		width: 97%;
+		justify-content: space-evenly;
+	}
+}
+
+@media(max-width: 425px){
+	#header{
+		background: url(images/kari-shea-272383-unsplash_425.jpg) no-repeat;
+		min-height: 481px;
+	}
+	#typewriter {
+		font-size: 35px;
+	}
+	#header h1 {
+		font-size: 75px;
+		padding-top: 75px;
+	}
+	h2{
+		font-size: 60px;
+		padding-bottom: 45px;
+		padding-top: 45px;
+	}
+/*	.beispiel .fab{
+		margin-top: 90%;
+	}
+	#about{
+		width: 94%;
+	}*/
+	.skills{
+		justify-content: space-around;
+	}
+	.skill{
+		width: 120px;
+	}
+	input{
+		width: 95%;
+	}
+	textarea{
+		min-width: 95%;
+		max-width: 95%;
+	}
+	.icon{
+		width: 50px;
+	}
+}
+
+@media(max-width: 375px){
+	#header h1 {
+		font-size: 65px;
+	}
+	.about img{
+		width: 200px;
+		height: 200px;
+	}
+	.flex{
+		max-width: 97%;
+		min-width: 97%;
+		height: 250px;
+		margin-bottom: 15px;
+	}
+}
